@@ -2,6 +2,13 @@ import uvicorn
 from fastapi import FastAPI, Request, Form
 from config import load_env, ModelType
 from mediai_bot import setup_llm
+from pydantic import BaseModel
+from typing import List
+
+class Message(BaseModel):
+    role: str
+    content: str
+    
 
 load_env()
 
@@ -15,8 +22,8 @@ def read_root(request: Request):
 
 
 @app.post("/prompt")
-def process_prompt(prompt: str = Form(...)):
-    response = llm.do(query_type="test", prompt=prompt, model_type=ModelType.gpt4o)
+def process_prompt(messages: List[Message]):
+    response = llm.do(query_type="test", messages=messages, model_type=ModelType.gpt4o)
     return {"response": response}
 
 if __name__ == "__main__":

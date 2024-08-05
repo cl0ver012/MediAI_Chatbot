@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 PROJECT_ROOT = ""
 LOG_INI = join(PROJECT_ROOT, 'log.ini')
 FIXTURES = join(PROJECT_ROOT, 'fixtures')
+CHATBOT_URL = "http://127.0.0.1:8000/prompt/"
 
 def load_env():
     load_dotenv(join(PROJECT_ROOT, ".env"))
