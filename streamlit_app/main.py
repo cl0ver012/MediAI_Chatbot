@@ -4,19 +4,14 @@ import toml
 import requests
 import sys
 import os
-from pydantic import BaseModel, Field
 from typing import List
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) 
 
 from config import CHATBOT_URL, load_env
+from mediai_bot.models import Message
+
 
 from os import environ
-
-
-class Message(BaseModel):
-    role: str
-    content: str
-    
 load_env()
 
 st.title("MediAI Chatbot")

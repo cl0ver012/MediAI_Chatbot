@@ -1,0 +1,31 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "determine_params",
+            "description": "This function used to extract the information from the conversation.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "user_name": {
+                        "type": "string",
+                        "description": "This property stands for user's name. It returns '' when name wasn't provided in the conversation."
+                    },
+                    "user_contact_number": {
+                        "type": "string",
+                        "description": "This property stands for user's phone number. it returns '' when phone number wasn't provided in the conversation."
+                    },
+                    "user_email_address": {
+                        "type": "string",
+                        "description": "This property stands for user's email address. it returns '' when email address wasn't provided in the conversation."
+                    },
+                    "user_post_code": {
+                        "type": "string",
+                        "description": "This property stands for user's postcode. it returns '' when postcode wasn't provided in the conversation."
+                    }
+                },
+                "required": ["user_name", "user_contact_number", "user_email_address", "user_post_code"]
+            }
+        }
+    }
+]

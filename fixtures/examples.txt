@@ -1,0 +1,49 @@
+Patient: Good morning, Doctor. I've been feeling awful the past few days.
+
+Doctor: Good morning. I'm sorry to hear that. Tell me, what seems to be the problem?
+
+Patient: Well, I have this terrible stomach ache, and my head is pounding. I've also had a fever on and off.
+
+Doctor: Okay, let's start with the stomach ache. Can you describe the pain? Is it sharp, dull, cramping? Where exactly do you feel it?
+
+Patient: It's kind of a dull ache, right here in the middle of my stomach. Sometimes it feels a little crampy.
+
+Doctor: And how long has this been going on?
+
+Patient:  About three days now.
+
+Doctor: Have you had any nausea or vomiting?
+
+Patient: A little nausea, but no vomiting.
+
+Doctor: Okay. Now, about your head. Is the pain all over or just in one spot?
+
+Patient: It's mostly in my forehead and temples.
+
+Doctor: Does light or sound bother you?
+
+Patient: Yes, definitely.
+
+Doctor: And the fever? How high has it been?
+
+Patient: I think it got up to about 101 degrees yesterday.
+
+Doctor: Alright. Have you had any other symptoms like a cough, runny nose, or diarrhea?
+
+Patient: No, nothing like that.
+
+Doctor: Okay. Have you taken anything for the pain or fever?
+
+Patient: Just some over-the-counter pain relievers, but they haven't really helped much.
+
+Doctor: I understand. Well, based on your symptoms, it sounds like you might have a viral infection. It could be a stomach bug or even the flu. We can do some blood work and maybe a stool sample to confirm.
+
+Patient: Okay.
+
+Doctor: In the meantime, it's important to rest and stay hydrated. Drink plenty of fluids like water, broth, or electrolyte drinks. You can also try a bland diet to see if that helps with the stomach ache. Avoid greasy or spicy foods.
+
+Patient: Alright, I'll do that.
+
+Doctor: And you can take over-the-counter pain relievers for the headache and fever, but be sure to follow the dosage instructions. If your symptoms don't improve or if they get worse, please come back and see me.
+
+Patient: Thank you, Doctor. I appreciate your help.

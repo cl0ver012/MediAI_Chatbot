@@ -1,0 +1,308 @@
+[
+    {
+      "name": "Dr. Emily Carter",
+      "specialization": "Family Medicine Physician",
+      "experience": "15+ years",
+      "education": "MD from Johns Hopkins University, Residency at Massachusetts General Hospital",
+      "board_certifications": "American Board of Family Medicine",
+      "areas_of_expertise": "Preventative care, chronic disease management, women's health, pediatrics",
+      "patient_philosophy": "Dr. Carter believes in building strong patient relationships based on trust and open communication.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Tuesday", "time": "1:00 PM - 7:00 PM"},
+        {"day": "Wednesday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Thursday", "time": "Closed"},
+        {"day": "Friday", "time": "9:00 AM - 5:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Sarah Rodriguez",
+      "specialization": "Dermatologist",
+      "experience": "7+ years",
+      "education": "MD from University of California, San Francisco, Residency in Dermatology at NYU Langone Medical Center",
+      "board_certifications": "American Board of Dermatology",
+      "areas_of_expertise": "Skin cancer detection and treatment, acne, eczema, psoriasis",
+      "patient_philosophy": "Dr. Rodriguez is dedicated to providing comprehensive and personalized dermatological care.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Wednesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Thursday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Friday", "time": "Closed"}
+      ]
+    },
+    {
+      "name": "Dr. David Patel",
+      "specialization": "Psychiatrist",
+      "experience": "12+ years",
+      "education": "MD from Yale School of Medicine, Residency in Psychiatry at Columbia University Medical Center",
+      "board_certifications": "American Board of Psychiatry and Neurology",
+      "areas_of_expertise": "Depression, anxiety, bipolar disorder, PTSD",
+      "patient_philosophy": "Dr. Patel takes a compassionate and collaborative approach to mental health care.",
+      "languages_spoken": "English, Hindi",
+      "availability": [
+        {"day": "Monday", "time": "1:00 PM - 8:00 PM"},
+        {"day": "Tuesday", "time": "1:00 PM - 8:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "1:00 PM - 8:00 PM"},
+        {"day": "Friday", "time": "1:00 PM - 8:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Maria Garcia",
+      "specialization": "Oncologist",
+      "experience": "18+ years",
+      "education": "MD from University of Pennsylvania, Fellowship in Oncology at Memorial Sloan Kettering Cancer Center",
+      "board_certifications": "American Board of Internal Medicine, American Board of Medical Oncology",
+      "areas_of_expertise": "Breast cancer, lung cancer, colorectal cancer",
+      "patient_philosophy": "Dr. Garcia provides supportive and individualized cancer care.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "10:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "Closed"},
+        {"day": "Wednesday", "time": "10:00 AM - 4:00 PM"},
+        {"day": "Thursday", "time": "10:00 AM - 4:00 PM"},
+        {"day": "Friday", "time": "10:00 AM - 2:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Jennifer Wilson",
+      "specialization": "Neurologist",
+      "experience": "9+ years",
+      "education": "MD from University of Michigan, Residency in Neurology at Mayo Clinic",
+      "board_certifications": "American Board of Psychiatry and Neurology",
+      "areas_of_expertise": "Stroke, multiple sclerosis, epilepsy",
+      "patient_philosophy": "Dr. Wilson provides comprehensive and compassionate neurological care.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "11:00 AM - 7:00 PM"},
+        {"day": "Tuesday", "time": "Closed"},
+        {"day": "Wednesday", "time": "11:00 AM - 7:00 PM"},
+        {"day": "Thursday", "time": "11:00 AM - 7:00 PM"},
+        {"day": "Friday", "time": "11:00 AM - 5:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Robert Brown",
+      "specialization": "Gastroenterologist",
+      "experience": "11+ years",
+      "education": "MD from Cornell University, Fellowship in Gastroenterology at Brigham and Women's Hospital",
+      "board_certifications": "American Board of Internal Medicine, American Board of Gastroenterology",
+      "areas_of_expertise": "Inflammatory bowel disease, irritable bowel syndrome, liver disease",
+      "patient_philosophy": "Dr. Brown focuses on digestive health and overall well-being.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Wednesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Thursday", "time": "Closed"},
+        {"day": "Friday", "time": "8:00 AM - 4:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Linda Davis",
+      "specialization": "Pulmonologist",
+      "experience": "16+ years",
+      "education": "MD from Northwestern University, Fellowship in Pulmonology at University of California, Los Angeles",
+      "board_certifications": "American Board of Internal Medicine, American Board of Pulmonary Disease",
+      "areas_of_expertise": "Asthma, COPD, sleep apnea",
+      "patient_philosophy": "Dr. Davis is dedicated to providing individualized care for respiratory conditions.",
+      "languages_spoken": "English, French",
+      "availability": [
+        {"day": "Monday", "time": "10:00 AM - 6:00 PM"},
+        {"day": "Tuesday", "time": "10:00 AM - 6:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "10:00 AM - 6:00 PM"},
+        {"day": "Friday", "time": "10:00 AM - 4:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Charles Smith",
+      "specialization": "Urologist",
+      "experience": "8+ years",
+      "education": "MD from University of Washington, Residency in Urology at University of California, San Francisco",
+      "board_certifications": "American Board of Urology",
+      "areas_of_expertise": "Prostate cancer, kidney stones, urinary incontinence",
+      "patient_philosophy": "Dr. Smith provides comprehensive urological care with a focus on patient comfort.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Tuesday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Wednesday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Thursday", "time": "Closed"},
+        {"day": "Friday", "time": "9:00 AM - 5:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Karen Johnson",
+      "specialization": "Endocrinologist",
+      "experience": "13+ years",
+      "education": "MD from Stanford University, Fellowship in Endocrinology at University of California, San Diego",
+      "board_certifications": "American Board of Internal Medicine, American Board of Endocrinology, Diabetes and Metabolism",
+      "areas_of_expertise": "Diabetes, thyroid disorders, osteoporosis",
+      "patient_philosophy": "Dr. Johnson empowers patients to manage their endocrine conditions.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "1:00 PM - 7:00 PM"},
+        {"day": "Tuesday", "time": "1:00 PM - 7:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "1:00 PM - 7:00 PM"},
+        {"day": "Friday", "time": "1:00 PM - 5:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Richard Williams",
+      "specialization": "Rheumatologist",
+      "experience": "10+ years",
+      "education": "MD from University of Chicago, Fellowship in Rheumatology at Johns Hopkins University",
+      "board_certifications": "American Board of Internal Medicine, American Board of Rheumatology",
+      "areas_of_expertise": "Rheumatoid arthritis, lupus, osteoarthritis",
+      "patient_philosophy": "Dr. Williams provides compassionate care for patients with autoimmune diseases.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Friday", "time": "8:00 AM - 2:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Susan Jones",
+      "specialization": "Allergist/Immunologist",
+      "experience": "7+ years",
+      "education": "MD from Columbia University, Fellowship in Allergy and Immunology at Mount Sinai Hospital",
+      "board_certifications": "American Board of Allergy and Immunology",
+      "areas_of_expertise": "Allergies, asthma, immune deficiencies",
+      "patient_philosophy": "Dr. Jones helps patients manage allergies and immune system disorders.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Tuesday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Friday", "time": "9:00 AM - 3:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Joseph Miller",
+      "specialization": "Nephrologist",
+      "experience": "12+ years",
+      "education": "MD from University of Pittsburgh, Fellowship in Nephrology at Massachusetts General Hospital",
+      "board_certifications": "American Board of Internal Medicine, American Board of Nephrology",
+      "areas_of_expertise": "Kidney disease, dialysis, hypertension",
+      "patient_philosophy": "Dr. Miller provides comprehensive care for patients with kidney disorders.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "10:00 AM - 6:00 PM"},
+        {"day": "Tuesday", "time": "Closed"},
+        {"day": "Wednesday", "time": "10:00 AM - 6:00 PM"},
+        {"day": "Thursday", "time": "10:00 AM - 6:00 PM"},
+        {"day": "Friday", "time": "10:00 AM - 4:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Patricia Moore",
+      "specialization": "Obstetrician/Gynecologist (OB/GYN)",
+      "experience": "15+ years",
+      "education": "MD from University of Texas Southwestern Medical Center, Residency in Obstetrics and Gynecology at Brigham and Women's Hospital",
+      "board_certifications": "American Board of Obstetrics and Gynecology",
+      "areas_of_expertise": "Pregnancy, childbirth, menopause, women's health",
+      "patient_philosophy": "Dr. Moore provides compassionate and individualized care for women throughout their lives.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Wednesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Thursday", "time": "Closed"},
+        {"day": "Friday", "time": "8:00 AM - 4:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Paul Anderson",
+      "specialization": "Emergency Medicine Physician",
+      "experience": "9+ years",
+      "education": "MD from University of California, Los Angeles, Residency in Emergency Medicine at Los Angeles County+USC Medical Center",
+      "board_certifications": "American Board of Emergency Medicine",
+      "areas_of_expertise": "Trauma, acute illness, critical care",
+      "patient_philosophy": "Dr. Anderson provides rapid and effective care in emergency situations.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "Varies based on Emergency Room Schedule"},
+        {"day": "Tuesday", "time": "Varies based on Emergency Room Schedule"},
+        {"day": "Wednesday", "time": "Varies based on Emergency Room Schedule"},
+        {"day": "Thursday", "time": "Varies based on Emergency Room Schedule"},
+        {"day": "Friday", "time": "Varies based on Emergency Room Schedule"}
+      ]
+    },
+    {
+      "name": "Dr. Lisa Thomas",
+      "specialization": "Pediatrician",
+      "experience": "11+ years",
+      "education": "MD from Baylor College of Medicine, Residency in Pediatrics at Texas Children's Hospital",
+      "board_certifications": "American Board of Pediatrics",
+      "areas_of_expertise": "Infant and child development, vaccinations, common childhood illnesses",
+      "patient_philosophy": "Dr. Thomas provides comprehensive and compassionate care for children of all ages.",
+      "languages_spoken": "English, Spanish",
+      "availability": [
+        {"day": "Monday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Tuesday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "9:00 AM - 5:00 PM"},
+        {"day": "Friday", "time": "9:00 AM - 3:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Anthony Jackson",
+      "specialization": "Geriatrician",
+      "experience": "14+ years",
+      "education": "MD from University of Virginia, Fellowship in Geriatrics at Johns Hopkins University",
+      "board_certifications": "American Board of Internal Medicine, American Board of Geriatric Medicine",
+      "areas_of_expertise": "Aging, dementia, chronic disease management in older adults",
+      "patient_philosophy": "Dr. Jackson provides specialized care for the elderly, focusing on maintaining independence and quality of life.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "10:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "10:00 AM - 4:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "10:00 AM - 4:00 PM"},
+        {"day": "Friday", "time": "10:00 AM - 2:00 PM"}
+      ]
+    },
+    {
+      "name": "Dr. Dorothy White",
+      "specialization": "Anesthesiologist",
+      "experience": "8+ years",
+      "education": "MD from Washington University in St. Louis, Residency in Anesthesiology at Barnes-Jewish Hospital",
+      "board_certifications": "American Board of Anesthesiology",
+      "areas_of_expertise": "General anesthesia, regional anesthesia, pain management",
+      "patient_philosophy": "Dr. White ensures patient comfort and safety during surgical procedures.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "Varies based on Surgical Schedule"},
+        {"day": "Tuesday", "time": "Varies based on Surgical Schedule"},
+        {"day": "Wednesday", "time": "Varies based on Surgical Schedule"},
+        {"day": "Thursday", "time": "Varies based on Surgical Schedule"},
+        {"day": "Friday", "time": "Varies based on Surgical Schedule"}
+      ]
+    },
+    {
+      "name": "Dr. Kevin Harris",
+      "specialization": "Radiologist",
+      "experience": "10+ years",
+      "education": "MD from University of North Carolina at Chapel Hill, Residency in Radiology at Duke University Medical Center",
+      "board_certifications": "American Board of Radiology",
+      "areas_of_expertise": "Diagnostic imaging, interventional radiology",
+      "patient_philosophy": "Dr. Harris uses advanced imaging techniques to diagnose and treat diseases.",
+      "languages_spoken": "English",
+      "availability": [
+        {"day": "Monday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Tuesday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Wednesday", "time": "Closed"},
+        {"day": "Thursday", "time": "8:00 AM - 4:00 PM"},
+        {"day": "Friday", "time": "8:00 AM - 4:00 PM"}
+      ]
+    }
+  ]

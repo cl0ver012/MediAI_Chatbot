@@ -1,0 +1,27 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "schedule_meeting",
+            "description": "This function is called when user trying to schedule a meeting with doctor.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "patient_name": {
+                        "type": "string",
+                        "description": "This property stands for the name of the patient."
+                    },
+                    "doctor_name": {
+                        "type": "string",
+                        "description": "This property stands for the name of the doctor."
+                    },
+                    "message": {
+                        "type": "string",
+                        "description": "This messsage stands for the memo about the meeting that doctor should check before intend meeting. This will include short summary of the conversation with patient."
+                    }
+                },
+                "required": ["patient_name", "doctor_name", "message"]
+            }
+        }
+    }
+]

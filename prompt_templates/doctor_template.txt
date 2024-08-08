@@ -1,0 +1,13 @@
+{system_prompt}
+
+Here are list of available doctors.
+You should recommend doctors from this list.
+###
+{doctors}
+###
+
+Here is a example conversation between you and patient.
+You need to generate responses similar to this conversation.
+###
+{example_conversation}
+###
