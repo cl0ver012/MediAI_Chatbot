@@ -1,15 +1,14 @@
 from concurrent.futures.thread import ThreadPoolExecutor
 from logging import getLogger
-from time import time
-from typing import Type, List, Union
+from typing import List, Union
+
 import json
 
 from openai import OpenAI, AsyncOpenAI
-from openai.types.chat import ChatCompletion
-from pydantic import BaseModel
 
 
 from config import PromptTemplate, get_prompt_template, ModelType, get_function_template, FunctionTemplate, Fixtures, get_fixture
+from mediai_bot.utils import schedule_meeting
 
 logger = getLogger('mediAI')
 
@@ -48,7 +47,7 @@ class LLMService:
                 messages=messages,
                 response_format={"type": "json_object"},
                 user=user
-            )
+               )
         else:
             completion = self.client.chat.completions.create(
                 model=model_type,
@@ -71,8 +70,17 @@ class LLMService:
         except:
             params = {}
         return params
-    
-    
+
+    def determine_actions(self, model_type: ModelType, messages):
+        response = self.client.chat.completions.create(
+            model=model_type, 
+            messages=messages,
+            tools=get_function_template(FunctionTemplate.DETERMINE_ACTIONS),
+            tool_choice="auto"
+        )
+
+        return json.loads(response.json())['choices'][0]
+
     def ask(
             self,
             query_type: str,
@@ -83,11 +91,22 @@ class LLMService:
             json_response: bool = False) -> str:
         logger.debug(f"{user}: {query_type} {messages}")
         messages.insert(0, {"role":"system", "content":self.final})
-        params = self.shadow_wrapper(model_type, shadow_models, self.determine_params, messages)
-
-        print(params)
-
-        return self.shadow_wrapper(model_type, shadow_models, self._do, query_type, messages, user, json_response)
+        # params = self.shadow_wrapper(model_type, shadow_models, self.determine_params, messages)
+        response = self.shadow_wrapper(model_type, shadow_models, self.determine_actions, messages)
+        if response["finish_reason"] == 'tool_calls':
+            print(response["message"]['tool_calls'][0]['function'])
+            arguments = json.loads(response["message"]['tool_calls'][0]['function']['arguments'])
+            function_name = response["message"]['tool_calls'][0]['function']['name']
+            if function_name == 'schedule_meeting':
+                schedule_meeting(arguments['patient_name'], arguments['doctor_name'], arguments['message'])
+            messages.append({"role":"system", "content":"You just sent message to doctor to schedule meeting with patient, plz let patient know about it"})
+            return self.shadow_wrapper(model_type, shadow_models, self._do, query_type, messages, user, json_response)
+        else:
+            # print(response['message']["content"])
+            
+            return response['message']["content"]
+        
+        # return self.shadow_wrapper(model_type, shadow_models, self._do, query_type, messages, user, json_response)
 
     def shadow_wrapper(self, model_type: ModelType, shadow_models: List[ModelType], fn, *args):
         f = self.pool.submit(fn, model_type, *args)

@@ -4,6 +4,7 @@ import toml
 import requests
 import sys
 import os
+import time
 from typing import List
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) 
 
@@ -38,7 +39,12 @@ if prompt := st.chat_input("What is up?"):
             Message(role=m["role"], content=m["content"])
             for m in st.session_state.messages
         ]
-
-        response =  requests.post(CHATBOT_URL, json=[m.dict() for m in messages])
-        st.markdown(response.json()["response"])
-    st.session_state.messages.append({"role": "assistant", "content": response.json()["response"]})
+        try:
+            response =  requests.post(CHATBOT_URL, json=[m.dict() for m in messages])
+            res = response.json()["response"]
+        except:
+            time.sleep(3)
+            response =  requests.post(CHATBOT_URL, json=[m.dict() for m in messages])
+            res = response.json()["response"]
+        st.markdown(res)
+    st.session_state.messages.append({"role": "assistant", "content": res})
